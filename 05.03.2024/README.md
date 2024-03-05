@@ -13,6 +13,11 @@ Prawy na rozwiązanie -> Dodaj -> Nowy Projet -> Google Test
 ![](img/projekt.png)
 ![](img/test.png)
 
+2. i pół, alternatywnie dla kroku 3 i 5
+Skopiuj pliki .h i .cpp klas do folderu z projektem z testami i dodaj je jak na screenie nizej
+
+![](img/alternatywa.png)
+
 3. Dodanie ścieżki z plikami .h w ustawieniach projektu
 
 Wybierz wszystkie konfiguracje i wszystkie platformy
