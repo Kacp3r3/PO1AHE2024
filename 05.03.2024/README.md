@@ -1,0 +1,1 @@
+# Konfiguracja Visual Studio do testowania
