@@ -6,11 +6,18 @@
 #include <vector>
 #include <iostream>
 
-class PBMReader
+#include "ImageReader.hpp"
+
+class PBMReader : public ImageReader
 {
 public:
 	PBMReader(std::string imagePath);
 
+	void printImageInfo() override;
+	void printMostFrequentColor() override;
+	int calcualteNumberOfUniqueColors() override;
+	
+	
 	std::pair<int, int> getMostFrequentColor();
 	void printImageData();
 

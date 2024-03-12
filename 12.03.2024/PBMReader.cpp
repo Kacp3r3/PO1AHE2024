@@ -36,6 +36,24 @@ PBMReader::PBMReader(std::string imagePath)
 	}
 }
 
+void PBMReader::printImageInfo()
+{
+	std::cout << "Rozmiar obrazu " << width << "x" << height << "\n";
+	std::cout << "Unikalnych kolorow: " << calcualteNumberOfUniqueColors();
+	std::cout << "Najczestszy kolor: " << 50 << 50;
+}
+
+void PBMReader::printMostFrequentColor()
+{
+	std::cout << "Jaki kolor: " << "Ile razy: ";
+}
+
+int PBMReader::calcualteNumberOfUniqueColors()
+{
+	//Skomplikowane kalkulacje
+	return 2;
+}
+
 std::pair<int, int> PBMReader::getMostFrequentColor()
 {
 	std::pair<int, int> rv;
